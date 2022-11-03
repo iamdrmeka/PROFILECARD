@@ -11,14 +11,14 @@ body {
 }
 body .p-one {
   position: fixed;
-  top: -80vh;
-  left: -300px;
+  top: -600px;
+  left: -250px;
   z-index: -1;
 }
 body .p-two {
   position: fixed;
-  right: -20vw;
-  bottom: -95vh;
+  right: -270px;
+  bottom: -600px;
   z-index: -1;
 }
 
@@ -86,17 +86,14 @@ article .likes p {
   }
   body .p-one {
     position: fixed;
-    bottom: 500px;
-    right: 100vw;
-    z-index: 9;
+    top: -700px;
+    left: -700px;
+    z-index: -1;
   }
   body .p-two {
     position: fixed;
-    right: -20vw;
-    bottom: -95vh;
-    z-index: 9;
-  }
-  main {
-    display: none;
+    right: -720px;
+    bottom: -600px;
+    z-index: -1;
   }
 }/*# sourceMappingURL=style.css.map */

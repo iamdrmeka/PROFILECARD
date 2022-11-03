@@ -26,15 +26,15 @@ body{
 
     .p-one{
         position: fixed;
-        top: -80vh;
-        left: -300px;
+        top: -600px;
+        left: -250px;
         z-index: -1;
     }
 
     .p-two{
         position: fixed;
-        right: -20vw;
-        bottom: -95vh;
+        right: -270px;
+        bottom: -600px;
         z-index: -1;
 
     }
@@ -116,23 +116,21 @@ article{
     
         .p-one{
             position:fixed;
-            bottom: 500px;
-            right: 100vw;
-             z-index: 9;
+            top: -700px;
+            left: -700px;
+             z-index: -1;
         }
     
         .p-two{
              position: fixed;
-            right: -20vw;
-            bottom: -95vh;
-            z-index: 9;
+            right: -720px;
+            bottom: -600px;
+            z-index: -1;
     
         }
     }
 
-    main{
-        display: none;
-    }
+  
 
     
 }

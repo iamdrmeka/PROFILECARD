@@ -1,0 +1,138 @@
+* {
+    //reset
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    // font-family: ;
+}
+
+//color config
+$body: hsl(185, 75%, 39%);
+$primary-one: hsl(229, 23%, 23%);
+$primary-two:  hsl(227, 10%, 46%);
+$secondary:  hsl(0, 0%, 59%);
+//font size:
+$name-stat: 18px;
+
+// - Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+// - Weights: 400, 700
+
+//Let the work begin
+
+body{
+    background-color: $body;
+    min-height: 100vh;
+    width: 100%;
+
+    .p-one{
+        position: fixed;
+        top: -80vh;
+        left: -300px;
+        z-index: -1;
+    }
+
+    .p-two{
+        position: fixed;
+        right: -20vw;
+        bottom: -95vh;
+        z-index: -1;
+
+    }
+}
+
+main{
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
+
+
+.container {
+    position: relative;
+    width: 330px;
+    .profile-img {
+        border-radius: 50%;
+        position: absolute;
+        top: 100px;
+        right: 120px;
+        border: 5px solid ghostwhite;
+    }
+}
+
+.top{
+    width: 100%;
+    background-image: url(/images/bg-pattern-card.svg);
+    height: 140px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.bottom {
+    padding: 5rem 1rem 2rem 1rem;
+    background-color: ghostwhite;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+
+    .name{
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+
+        span{
+            font-size: 0.8rem;
+            
+        }
+    }
+
+    .place{
+        margin-bottom: 1.5rem;
+    }
+}
+
+article{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+
+    .likes {
+        h2{
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+
+        p{
+            font-size: 0.7rem;
+        }
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+
+    body{
+        background-color: $body;
+        min-height: 100vh;
+        width: 100%;
+    
+        .p-one{
+            position:fixed;
+            bottom: 500px;
+            right: 100vw;
+             z-index: 9;
+        }
+    
+        .p-two{
+             position: fixed;
+            right: -20vw;
+            bottom: -95vh;
+            z-index: 9;
+    
+        }
+    }
+
+    main{
+        display: none;
+    }
+
+    
+}

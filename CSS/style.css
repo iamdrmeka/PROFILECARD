@@ -83,6 +83,7 @@ article .likes p {
     background-color: hsl(185deg, 75%, 39%);
     min-height: 100vh;
     width: 100%;
+    padding-top: 50px;
   }
   body .p-one {
     position: fixed;
